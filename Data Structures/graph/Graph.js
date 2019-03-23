@@ -50,10 +50,10 @@ class Graph {
     }
 
     /*
-    dijkstras implementation with priority queue learned in online course
-    "JavaScript Algorithms and Data Structures Masterclass"
-    by Colt Steele
-    https: //www.udemy.com/js-algorithms-and-data-structures-masterclass/
+    * dijkstras implementation with priority queue learned in online course
+    * "JavaScript Algorithms and Data Structures Masterclass"
+    * by Colt Steele
+    * https: //www.udemy.com/js-algorithms-and-data-structures-masterclass/
     */
     findShortestPath(value1, value2) {
         const pQueue = new PQueue();
