@@ -1,10 +1,10 @@
 const Node = require("./Node.js")
 
 /*
-priority queue implementation learned in online course
-"JavaScript Algorithms and Data Structures Masterclass"
-by Colt Steele
-https: //www.udemy.com/js-algorithms-and-data-structures-masterclass/
+* priority queue implementation learned in online course
+* "JavaScript Algorithms and Data Structures Masterclass"
+* by Colt Steele
+* https: //www.udemy.com/js-algorithms-and-data-structures-masterclass/
 */
 class PriorityQueue {
     constructor() {
