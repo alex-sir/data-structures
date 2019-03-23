@@ -6,7 +6,12 @@ class Node {
         this.right = null;
         this.height = null;
     }
-
+    
+    /*
+	leftHeight(), rightHeight(), rotateRight(),
+	and rotateLeft() are from the following source code
+	by Tyriar on Github: https://github.com/gwtw/js-avl-tree/blob/master/src/node.js
+	*/
     leftHeight() {
         if (this.left === null) {
             return 0;
@@ -31,7 +36,7 @@ class Node {
     }
 
     rotateLeft() {
-        var rightNode = this.right;
+        let rightNode = this.right;
         this.right = rightNode.left;
         rightNode.left = this;
         this.height = Math.max(this.leftHeight(), this.rightHeight()) + 1;
