@@ -1,4 +1,3 @@
-// TODO: Implement AVL Tree Node
 class Node {
     constructor(value) {
         this.value = value;
@@ -7,10 +6,10 @@ class Node {
         this.height = null;
     }
     
-    /*
-	leftHeight(), rightHeight(), rotateRight(),
-	and rotateLeft() are from the following source code
-	by Tyriar on Github: https://github.com/gwtw/js-avl-tree/blob/master/src/node.js
+	/*
+	* leftHeight(), rightHeight(), rotateRight(),
+	* and rotateLeft() are from the following source code
+	* by Tyriar on Github: https://github.com/gwtw/js-avl-tree/blob/master/src/node.js
 	*/
     leftHeight() {
         if (this.left === null) {
